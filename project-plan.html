@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html hreflang="it">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Federico Fellini  - Project Plan</title>
+<meta name="description" content="Progetto per la valorizzazione della filmografia di Fellini" />
+        
+<meta name="author" content="Livia Lombardi" />
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="style/style.css" /> 
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+	
+<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+	<style>
+	/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+</style>
+</head>
+	
+<body>
+<input type="checkbox" id="hamburger"/>
+<label class="menuicon" for="hamburger">
+  <span></span>
+</label>
+
+<div id="bar"> 
+ 	<div id="logo">
+        <a href="index.html"><img src="img/logo.png" alt="your logo" title="your logo" height="45"></a>
+	</div> <!--/fine logo-->   
+</div><!--/fine bar--> 
+	
+<nav class="menu-visibility">
+            	<ul>
+                	 <li><a class="active" href="index.html">HOME</a></li>
+                     <li><a class="submenu" href="#">BIOGRAFIA</a>
+						<ul>
+                    		<li><a href="#">Giovinezza</a></li>
+					 		<li><a href="#">Prime esperienze</a></li>		
+							<li><a href="grandesuccesso.html">Grande successo</a></li>
+							
+						</ul> 
+                     </li>
+					 <li><a class="submenu" href="filmografia.html">FILMOGRAFIA</a>
+                     	<ul>
+                            <li><a href="#">8 1/2</a></li>
+							<li><a href="#">La dolce Vita</a></li>
+							<li><a href="#">La voce della luna</a></li>
+    					</ul>
+                    </li>
+              <li><a class="submenu" href="#">PREMI E RICONOSCIMENTI</a>
+                     	<ul>
+                            <li><a href="#">David di Donatello, La Dolce Vita</a></li>
+							<li><a href="#">1962, Oscar, La Dolce Vita</a></li>
+							<li><a href="#">1964,Nastro d'argento,8 1/2</a></li>
+    					</ul>
+                    </li>
+					<li><a href="chisiamo.html">CHI SIAMO</a></li>
+					<li><a href="contatti.html">CONTATTI</a></li>
+					<li class="lingua"><a href="#">Lingua</a>
+                     	<ul>
+                            <li><a href="#">It - italiano</a></li>
+							<li><a href="#">Fr - français </a></li>
+							<li><a href="#">En - english</a></li>  
+    					</ul>
+                     </li>
+              	</ul>
+</nav>
+
+			
+<div class="contenitore">
+
+	<div class="contenuto">
+		<h1>Indice</h1>
+<!-- web project plan -->
+		<div class="indice">			
+			<ul>
+				<li><a href="#brief"><h3>Briefing</h3></a></li>
+					<ul>
+						<li><a href="#briefuno"><h4>Obiettivi, finalità, scopo</h4></a></li>
+						<li><a href="#briefdue"><h4>Utente tipo</h4></a></li>
+					</ul>
+				<li><a href="#benchmark"><h3>Benchmark</h3></a></li>
+					<ul>
+						<li><a href="#benchmark1"><h4>Esistente e competitors</h4></a></li>
+					</ul>
+				<li><a href="#struttura"><h3>Struttura</h3></a></li>
+					<ul>
+						<li><a href="#mappa-concetti"><h4>Mappa dei concetti</h4></a></li>
+						<li><a href="#schema-dipendenze"><h4>Schema delle dipendenze</h4></a></li>
+						<li><a href="#categorie-item"><h4> Categorie item foglia</h4></a></li>
+					
+					</ul>
+				<li><a href="#layout"><h3>Layout</h3></a></li>
+					<ul>
+						<li><a href="#home"><h4>Pagina Home</h4></a></li>
+						<li><a href="#accesso1"><h4>Pagina di navigazione primaria</h4></a></li>
+						<li><a href="#item"><h4>Pagina item</h4></a></li>
+						<li><a href="#chisiamo"><h4>Pagina "Chi siamo"</h4></a></li>
+					</ul>
+				<li><a href="#usabilita"><h3>Usabilità</h3></a></li>
+				<li><a href="#servizi"><h3>Servizi</h3></a></li>
+				<li><a href="#bibliografia"><h3>Bibliografia</h3></a></li>
+			</ul>
+		</div>
+
+		</p>	
+	</div><!-- fine contenuto -->
+	
+	
+	<div class="contenuto">	
+<p>
+<a id="brief">
+<h2>Il briefing</h2>
+</a>
+<b id="briefuno">Obiettivi, finalità e scopo</b><br>
+Il progetto vuole regalare uno sguardo quanto più ampio possibile alla produzione artistica felliniana.   Esso ha, inoltre, la finalità di dare una visione semplice e immediata della poetica del grande regista. I primi particolari che saltano all’occhio sono le suddivisioni dei momenti salienti della sua vita privata e lavorativa, navigabili secondo un ordine cronologico. Si ha perciò non solo l'obiettivo di far conoscere la biografia del Fellini, il contesto in cui egli è cresciuto ma, anche, quella immensa  provincia italiana  che il suo cinema non si stancava  mai di raccontare.
+Attraverso un gioco di colori neutri e parole chiave centrali, l’esplorazione attraverso le varie pagine avviene in maniera spontanea e veloce.
+Nel progettare il sito, si ha anche l'intenzione di rendere più conosciuto il regista tra il pubblico più giovane: si rende infatti disponibile, oltre al download locale di trame e copertine dei film prescelti, di iscriversi, in pochi semplici passaggi alla newsletter, per restare sempre aggiornati scegliendo tra un rosa di tre lingue messe a disposizione: italiano, francese e inglese.
+<br><br>
+<b id="briefdue">Utente tipo</b><br>
+Il progetto è destinato ad avere come utenti principali  coloro che vogliano approcciarsi alla conoscenza del principale esponente  del cinema italiano, in particolar modo i millenials che hanno poche  occasioni di conoscere il cinema felliniano. Esso si rivolge, perciò, anche ai  docenti di materie letterarie delle scuole secondarie di secondo grado che vogliano avvicinare gli studenti al mondo felliniano. A questo scopo la classificazione per temi delle opere,, permettono a chi sa già cosa cercare di trovare facilmente i contenuti e di approfondire la biografia dell'artista principalmente per scopi didattici e di ricerca, ma anche per interesse personale. La struttura intuitiva del sito permette anche a chi vi si imbatte per caso di osservare ed esplorare le varie pagine, al fine di costruire un interesse nell'approfondire la conoscenza del regista.  La presenza di approfondimenti sulla biografia e sul contesto invita comunque a una navigazione a fini di ricerca anche al di fuori del contesto scolastico.
+<br><br>
+<b id="benchmark">Benchmark</b><br>
+<em id="benchmark1">Esistente e competitors</em><br>
+Non esiste, di certo, un solo sito che ci racconti dell’importante arte cinematografica di Fellini. Gli archivi online, le mostre cinematografiche, siti web di musei che espongono tante raccolte fotografiche della sua vita privata e lavorativa raccontano spesso di lui in qualsiasi sfaccettatura. Per la realizzazione di questo sito web è stato fondamentale il riferimento alla pagina Wikipedia dedicata al regista. Comprende migliaia di nozioni e catalogazioni dei numerosissimi premi ottenuti da Fellini, disposti in ordine cronologico. Da qui è stato facile ispirarsi per una suddivisione ancor più lineare e semplice, poco eclettica e precisa, per non creare confusione ed essere facilmente raggiungibile tramite le pagine item del progetto. Un altro sito meraviglioso preso da esempio e da ispirazione è quello del ‘Museo Fellini Rimini’, ciò che colpisce è la grande presentazione delle locandine dei film, riportate insieme all’anno di realizzazione scritto con caratteri grandi. L’idea viene ripresa ma riformulata nel nostro sito web: 4 film in esame, un estratto di trama e premio destinato al regista per i suddetti capolavori. Rispetto al sito di riferimento la ricerca delle nostre  locandine è più immediata e meno confusionaria, trovabile già nella pagina della schermata home del sito.                                              Lantermaweb.it è stata una lente d’ingrandimento per riuscire a percepire che persona è stata Fellini, cosa si celava dietro un uomo grande e carismatico. Parlava del processo della realizzazione dei film come un viaggio di cui gli interessava unicamente la partenza e non l’arrivo, immaginandolo vago o anche inesistente. Per il nostro sito web è stato un elemento cardine per creare una pagina Home fatta di citazioni che fossero d’impatto e curiosità per il fruitore e scopritore delle altre pagine. In questo caso, rispetto al sito di riferimento, rappresenta solo una parte del sito web in quanto ci teniamo a porre l’attenzione su una conoscenza più varia e completa. Infine, verremo colpiti subito dalle immagini che accompagnano questi frammenti di suoi pensieri, cosa inesistente nel sito di base.
+<br><br>
+<b id="struttura">STRUTTURA</b><br>
+<em id="mappa-concetti">MAPPA DEI CONCETTI</em><br>
+Nella mappa dei concetti si ha l'illustrazione grafica del brief del progetto. Finalità della mappa è chiarire i rapporti che intercorrono tra gli elementi nominati nel brief ed evidenziare i contenuti del sito. Sono stati utilizzati vari colori. Vediamo cosa corrisponde ad una navigazione principale, secondaria e le varie pagine item. Nello specifico si può notare il colore azzurro per la navigazione primaria(Filmografia, premi e riconoscimenti e la biografia), il blu per gli elementi di navigazione secondaria(giovinezza, prime esperienze, grande successo).Viene sottolineato come questi dati siano organizzati secondo un ordine cronologico.
+<br><br><img src="img/mappa_concettuale.png" width="1100">
+<br><br>
+<b id="schema-dipendenze">SCHEMA DELLE DIPENDENZE </b><br>
+Lo schema delle dipendenze mostra la struttura gerarchica delle pagine del sito. Nella pagina Home oltre a  immagini supportate da citazioni di Fellini, è possibile esplorare il sito ed in particolare soffermarsi su uno slideshow realizzato con immagini appartenenti ad alcuni momenti  della vita del regista. Nel footer si è ricavato l’accesso per il Web Project Plan. All’interno dello schema, con dei rettangoli grigio scuro vengono segnalati gli elementi di navigazione primaria, con dei rettangoli rossi la lista dei dropdown cliccabili (elenco di una selezione di film,momenti importanti della sua vita, riconoscimenti ottenuti), con cui si accede alla navigazione secondaria. Per la biografia è stata immaginata ed implementata una pagina di accesso molto semplice riguardante il periodo del 'grande successo', con immagini e descrizioni del periodo più glorioso della sua esistenza.Le immagini sono supportate da una una casella di testo. Per la sezione della filmografia è stata pensata ed implementata una pagina in cui sono stati riportati alcuni esempi di locandine di una selezione di film, con annessa trama. Sono categorizzati in ordine cronologico. Infine, la pagina "Chi siamo", presenta la descrizione del progetto e la possibilità di iscriversi alla newsletter, che ha come scopo quello di promuovere il sito e di avvicinare quanto più possibile gli utenti al regista.
+<br><br><img src="img/schema_dipendenze.png" width="1100">
+<br><br>
+<b id="categorie-item">Categorie di un item foglia</b><br>
+Nel sito sono disponibili 3 categorie di item foglia:i film scelti con le relative locandine, immagini del regista e biografia del regista. Prendiamo in esame le categorie descrittive delle immagini delle locandine con annessa descrizione di film.
+<br><br>
+<ul>
+<li>Titolo (DC.Title): Titolo del film.</li>
+<li>Creatore (DC.Creator): L'autore del film.</li>
+<li>Data (DC.Date): La data di creazione del film.</li>
+
+<li>Dimensioni (DC.Subject): Durata del film.</li>
+<li>Tecnica (DC.Description): Tecnica intesa come pellicola.</li>
+
+<li>Fonte dell'immagine (DC.Source): Da dove è stata presa l'immagine.</li>
+<li>Diritti di utilizzo (DC.Rights).</li>
+
+
+<b id="layout">Layout</b><br>
+Tutte le pagine presentano un header con la barra di navigazione (hide on scroll down navbar) e un logo in alto a sinistra. La navbar presenta dei canali di navigazione primaria, attraverso i quali, con i dropdown, è possibile accedere alla navigazione secondaria. È sempre presente il footer, suddiviso in pre-footer e post-footer, da cui è possibile raggiungere la pagina dedicata al web project plan (metanavigazione). Tutte le pagine, esclusa la home, presentano dei breadcrumbs, così da rendere immediata la navigazione segnalando la dipendenza gerarchica della struttura del sito.
+<br><br>
+<b id="home">Pagina Home</b><br>
+Nella pagina Home, oltre agli elementi descritti nel layout troviamo tre sezioni differenti. La prima sezione presenta  immagini con citazioni di Fellini, centrali e sicuramente d’impatto per chi apre il sito. Successivamente troviamo uno slide show (slide show container) automatico, con tre slide che riassumono i momenti di premiazione del regista . In questo modo si vuole rendere evidente cosa contiene il sito in modo chiaro ed efficace, seppur a linee generali. Nell’ultima sezione, in fondo, il footer con le informazioni generali e il riferimento al project plan.
+<br><br><img src="img/home_project.png" width="1100">
+<br><br>
+<b id="accesso1">Pagina di navigazione primaria </b><br>
+In questa pagina di navigazione primaria troviamo oltre gli stessi elementi presenti nella home nella navbar, il logo situato a sinistra e le briciole di pane, degli approfondimenti riguardo la filmografia di Fellini. Vengono presi in esame tre film in particolare, posizionati e ricercabili secondo un ordine cronologico:  ‘La Dolce Vita’, ‘81/2’ e ‘La voce della luna’. Vengono, quindi, aggiunte al centro della pagina delle locandine dei film e rappresentiamo nel suddetto wireframe lo spazio occupato e le trame in questione.
+<br><br><img src="img/filmografia_project.png" width="1100">
+<br><br>
+<b id="item">Pagina item:</b><br>
+Viene preso in esame un aspetto e il terzo, per ordine gerarchico, del dropdown corrispondente al periodo biografico di Fellini: ‘il grande successo’. Vengono utilizzate immagini a supporto chiarificatore delle caselle di testo. Il tutto è reso molto fruibile ad uno studente della scuola secondaria che si approccia a questi argomenti per la prima volta. In alto abbiamo sempre la navbar e in fondo il footer.
+<br><br><img src="img/item_project.png" width="1100">
+<br><br>
+
+
+</ul><br><br>
+<b id="chisiamo">Pagina "Chi siamo"</b><br>
+In questa pagina (oltre agli elementi presenti in tutte le pagine e ai breadcrumbs) proponiamo una breve descrizione della motivazione per cui è stato progettato il sito e per chi viene immaginata la sua realizzazione. Viene,inoltre, fornita la possibilità di iscriversi ad una news letter (newsletter form) per ricevere gli aggiornamenti, lasciando i nominativi e l’email. In questo modo si cerca di creare un contatto con l'utente che vada oltre la semplice fruizione occasionale o casuale del sito.
+<br><br><img src="img/chisiamo_project.png" width="1100">
+<br><br>
+<b id="usabilita">USABILITA’</b><br>
+Il sito si presenta in maniera molto semplice e lineare: i colori utilizzati sono il rosso, il bianco, il grigio su sfondo bianco. Il sito è progettato per persone che si apprestano da poco a questi argomenti per cui anche le trame dei film scelti sono scritte con un linguaggio piuttosto elementare ma centrato. Tutto risulta in perfetta armonia: immagini, citazioni, le locandine dei film, non vi è, però, un sovraffollamento di materiale proposto. Tramite la barra di navigazione principale subito l’utente riesce a capire verso quale argomento è incuriosito. Lo stesso web project plan, per chi fosse interessato, è facilmente raggiungibile.
+<br><br>
+<b id="servizi">SERVIZI</b><br>
+Il sito è navigabile attraverso un canale di navigazione primaria, cioè la navbar con dropdown (navigazione secondaria).Dalla navbar si può accedere a tutti i canali di navigazione secondaria. Nelle pagine di accesso sono presenti i breadcrumbs. Nella Home ,inoltre, si trova uno slide-show navigabile, considerabile ulteriore strumento di navigazione. È inoltre presente, nella pagina "Chi siamo", un forum per aderire alla newsletter.
+<br><br>
+<b id="bibliografia">Bibliografia</b><br>
+<em>Per i contenuti</em>
+<ul>
+<li>Tomasi Francesca, Metodologie informatiche e discipline umanistiche, Carocci, Roma 2008.</li>
+<li>Tomasi Francesca, Organizzare la conoscenza: Digital Humanities e web semantico, Editrice bibliografica, Milano 2022.</li>
+<li>Federico Fellini, Il libro dei Sogni, Rizzoli, 2016</li>
+</ul>
+<em>Per la realizzazione web</em>
+<ul>
+<li>https://www.w3schools.com/howto/</li>
+<li>https://www.html.it/</li>
+<li>https://www.canva.com/</li>
+<li>https://virtuale.unibo.it/</li>
+</ul>
+<b>Per le immagini :</b><br>
+<ul>
+	<li>https://fellinimuseum.it/fellini/</li>
+
+	Licenze creative commons<br>
+
+L'editor utilizzato per scrivere il codice è Sublime Text.
+	</p>	
+	</div><!-- fine contenuto -->
+	
+
+</div><!-- fine conteitore -->
+<footer>
+<div class="footer">Livia Lombardi | <a href="project-plan.html">Web Project Plan</a> <br>
+© Corso di Informatica Umanistica, 2022</div>
+</footer>
+</body>
+</html>
